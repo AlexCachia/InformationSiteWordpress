@@ -1,0 +1,640 @@
+/*
+	Theme name: exampleTheme
+*/
+/* Wrappers */
+html {
+    margin-top: 0px !important;
+}
+body{
+	margin: 0 auto;
+	line-height: 20px;
+	/*(background: url(../media/images/plain.jpg) center no-repeat;*/
+	background-attachment: fixed;
+}
+
+body, input, textarea{
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	*/
+font-family: "sophia";
+}
+
+#lastLink{
+	border-bottom-right-radius: 9% 4px; 
+	border-top-right-radius: 9% 4px;
+}
+
+#bodyHeader{
+	background-color: black;
+	padding-bottom: 5px;
+	color: white;
+	border-bottom: none;
+	text-align: center;
+}
+
+#bodyContent{
+	float: left;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 2%;
+}
+
+#contentWrapper{
+	margin: 0px auto 2%;
+}
+
+
+
+
+/* Menu */
+#menu{
+	margin: 13px auto;
+	text-align: center;
+}
+
+#mobileHeader{
+	display: none;
+}
+
+.menuLinkDiv{
+	font-size: 0px;
+	padding: 6px 9px;
+}
+
+#menuLinkList{
+	font-size: 0px;
+}
+
+.menuLink{
+	text-decoration: none;
+        font-size: 14px;
+        line-height: 20px;
+}
+
+.menuLink:hover{
+	text-decoration: underline;
+}
+
+#lastLink{
+	border-bottom-right-radius: 9% 4px; 
+	border-top-right-radius: 9% 4px; 
+}
+
+
+
+/* Text */
+h1, h2, h3{
+	margin: 0px;
+}
+
+h1{
+	padding: 10px 0px;
+}
+
+#lastPara{
+    margin-bottom: 0px;
+}
+
+#bodyHeader h3{
+	background-color: transparent;
+	padding-bottom: 5px;
+}
+
+a{
+	text-decoration: none;
+	margin-bottom: -5px;
+}
+
+a, img {
+    border:none;
+    outline:none;
+}
+
+.enquiryClass{
+	color: #271B81;
+font-weight: bold;
+}
+
+.enquiryClass:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+/* Images */
+.mainImage{
+	float: right;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+
+
+
+
+/* Bio Page */
+#bioImage{
+	float: right;
+	margin-left: 20px;
+}
+
+#linkPara{
+	margin-bottom: 0px;
+}
+
+.linkImage{
+	padding-right: 5px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+/* Options */
+.optionSection h3{
+	margin-bottom: 10px;
+}
+
+.optionSection p {
+	margin-top: 0px;
+}
+
+#duoImage, #bandImage{
+	float: left;
+	margin-right: 10px;
+}
+
+#duoImage3{
+	display: none;
+}
+
+#lastOptionPara{
+	margin-bottom: 0px;
+}
+
+
+
+/* Multimedia */
+audio{
+	width: 90%;
+	padding: 2% 5%;
+}
+
+
+
+
+/* Image Gallery*/
+.arrowDiv{
+	display: none;	
+}
+
+.arrowImage{
+	cursor: pointer;
+	
+}
+
+#imageWrapper{
+	width: 100%;
+	margin-top: 5px;
+}
+
+.galleryImage{
+	display: none;
+	margin: 0 auto;
+}
+
+.current{
+	display: block !important;
+}
+
+#imageTextWrapper{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#imageTextWrapper, #thumbs{
+	text-align: center;
+}
+
+#thumbs{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.galleryImageThumb{
+	width: 43px;
+	height: 43px;
+	cursor: pointer;
+}
+
+
+
+/* Comments Page */
+#commentButton{
+	width: 70px;
+	background-color: #FFFFFF;
+}
+
+#commentArea{
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.commentRow{
+	border-bottom: 1px solid black;
+	padding: 10px 0;
+}
+
+#spinner{
+	vertical-align: top;
+	display: none;
+}
+
+
+
+/* Gigs */
+iframe{
+	width: 100%;
+}
+
+#calendarIFRAME{
+	margin-top: 5px;
+}
+
+#scIFRAME{
+	margin-top: 10px;
+}
+
+
+
+/* Contact */
+form, input, textarea{
+	width: 100%;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="submit"]
+{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+form{
+	margin-top: 10px;	
+}
+
+input, textarea{
+	border: 1px solid black;
+	font-size: 13px;
+	padding: 2px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+
+textarea {
+    resize: none;
+}
+
+#submitButton{
+	width: 70px;
+	background-color: #FFFFFF;
+}
+
+.errorClass{
+	border: 1px solid red;
+}
+
+#responseDiv{
+	width: 100%;
+	font-weight: bold;
+	height: 30px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+    /* Wrappers */
+	body{
+		width: 100%;	
+		font-size: 13px !important;      
+	}
+
+	#bodyHeader{
+	height: 65px;
+	}
+
+	#contentWrapper{
+		position: relative;
+	}
+
+	#bodyContent{
+		float: left;
+		padding: 2% 3%;
+		width: 88%;
+		margin: 10px 3%;
+	}
+
+	#shoutOutWrapper{
+		display: none;
+	}
+
+
+
+	/* Mobile Menu */
+	#menu{
+		background-color: #f2f2f2;
+		padding: 0px;
+		margin: 10px 3% 0px;
+		width: 94%;
+	float: left;
+		display: block;
+	}
+
+	#mobileHeader{
+		color: white;
+		background-color: black;
+		font-weight: bold;
+		cursor: pointer;
+		display: block;
+		padding: 10px 0%;
+		width: 100%;
+	}
+
+	#mobileHeader, .menuLink{
+		float: left;
+		
+	}
+
+	.menuLinkDiv, #headerLink, .menuLink{
+		width: 92%;
+	}
+
+	.menuLink{
+		padding: 10px 0px;
+	color: black;
+	}
+
+	#headerLink{
+		float: left;
+		font-size: 16px;
+	}
+
+	.Arrow{
+		width: 8%;
+		float: left;
+		text-align: center;
+	}
+
+	#MainArrowUp{
+		display: none;
+	}
+
+	#menuLinkList{ 
+		display: none; 
+		width:94%;
+			position: absolute;
+	top: 120px;
+		background-color: #f2f2f2;
+		z-index: 10;
+	}
+
+	#menuLinkList li :hover{
+		background-color: #cc99ff;
+	}
+
+	a{
+		margin: 0px;
+	}
+
+
+	/* Text */
+	h1{
+	font-size: 25px;
+	}
+
+	h3{
+	   font-size: 14px;
+	}
+
+
+	/* Images */
+	#bioImage,  #teachingImage, #tuitionImage,  #soloImage, #bandImage {
+		width: 50%;
+		max-width: 225px;
+	}
+
+
+
+
+	 /* Tuition */
+	#duoImage3, #duoImage {
+		height: 225px;
+	}
+
+
+
+
+	 /* Options */
+	 #soloImage{
+		margin-top: 3px;
+	}
+
+	#duoImage{
+		margin-top: 6px;
+	}
+
+	#duoImage2{
+		display: none;
+	}
+
+	#duoImage3{
+		display: block;
+		margin-left: 3px;
+		margin-top: 3px;
+	}
+
+	#bandImage{
+		margin-top: 3px;
+	}
+		
+
+
+
+
+
+	/* Multimedia */
+	audio {
+		padding: 2%;
+	}
+
+
+
+
+	/* Image Gallery*/
+	.arrowDiv{
+		width: 10%;
+	}
+
+	.galleryImageThumb{
+		width: 43px;
+		height: 43px;
+	}
+
+	.galleryImage{
+		max-width: 215px;
+	}
+
+
+	/* Contact */
+	form, input, textarea{
+		font-size: 12px !important;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	/* Wrappers */
+	body, #bodyHeader{
+		font-size: 15px !important;
+	}
+
+	#contentWrapper {
+		width: 825px;
+	}
+
+	#bodyContent{
+		width: 625px;
+	}
+
+	/* Menu */
+	#menu{
+		font-size: 18px;
+		border-bottom: 1px solid black;
+		padding: 8px 0;
+		width:100%;
+		margin-top: 0px;
+	}
+
+	.menuLinkDiv{
+		 display: inline;
+	}
+
+	.menuLink{
+	   color: black;
+	}
+
+
+	#menuLinkList {
+		line-height: 13px;
+	}
+
+
+	/* Shout Outs */
+	#shoutOutWrapper{
+		float: right;
+	}
+
+	#availableDiv, #linkDiv, #locationDiv {
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 15px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 20px;
+		width: 114px;
+	}
+
+	#availableDiv,#locationDiv  {
+		margin-bottom: 14px;
+	}
+
+	.shoutOutTitle{
+		margin: 0px 0px 5px;
+	}
+
+	#duoSpan,  #recordingSpan, #weddingSpan{
+		color: #271B81;
+	}
+
+	#soloSpan, #bandSpan, #teachingSpan {
+		color: #68BDF2;
+	}
+
+	.shoutOutImage{
+		width: 30px;
+		margin-bottom: 10px;
+	}
+
+
+
+	/* Bio  */
+	#bioImage{
+		width: 215px;
+		margin-top: 12px;
+	}
+
+	#linkPara{
+		margin-top: -10px;
+	}
+
+
+	/* Tuition */
+	#tuitionImage{
+		width: 50%;
+	}
+
+
+
+
+	/* Teaching */
+	#teachingImage{
+		width: 160px;
+	}
+
+
+
+	/* Options */
+	#soloImage{
+		width: 170px;
+		margin-top: 3px;
+	}
+
+	#duoImage{
+		width: 123px;
+	}
+
+	#duoImage2{
+		width: 131px;
+		margin-top: 3px;
+	}
+
+	#bandImage{
+		width: 122px;
+	}
+
+
+
+	/* Gallery */
+	#leftArrow{
+		margin-right: 49px;
+	}
+
+	#rightArrow{
+		margin-left: 49px;
+	}
+
+	.galleryImageThumb{
+		width: 50px;
+		height: 50px;
+	}
+
+	.galleryImage{
+		max-width: 500px;
+		height: 300px;
+	}
+}
